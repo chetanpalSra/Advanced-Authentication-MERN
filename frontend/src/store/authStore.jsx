@@ -7,7 +7,7 @@ const API_URL = import.meta.env.MODE === "development"?"http://localhost:5007/ap
 axios.defaults.withCredentials = true;
 //The line axios.defaults.withCredentials = true; is used to configure Axios so that it includes cookies or other credentials (like HTTP authentication) with cross-site requests.When we talk about "other credentials" in the context of axios.defaults.withCredentials = true, it primarily refers to mechanisms that allow the client to authenticate itself with the server or provide session-related information. These can include:
 
-
+ 
 const useAuthStore = create((set) => ({
  user: null,
  isAuthenticated: false,

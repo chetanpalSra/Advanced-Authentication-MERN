@@ -80,7 +80,7 @@ const VERIFICATION_EMAIL_TEMPLATE = `
       <p>Enter this code on the verification page to complete your registration.</p>
       <p>This code will expire in <strong>15 minutes</strong> for security reasons.</p>
       <p>If you didn't create an account with us, please ignore this email.</p>
-      <a href="http://localhost:5173/verify-email" class="cta" style="color: white;">Verify Now</a>
+      <a href="https://advanced-authentication-mern.onrender.com/verify-email" class="cta" style="color: white;">Verify Now</a>
       <p style="margin-top: 20px;">Best regards,<br>Your App Team</p>
     </div>
     <!-- Footer -->
