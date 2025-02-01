@@ -2,7 +2,7 @@ import {create} from "zustand";
 import axios from "axios";
 
 
-const API_URL = "http://localhost:5007/api/auth";
+const API_URL = import.meta.env.MODE === "development"?"http://localhost:5007/api/auth": "/api/auth";
 
 axios.defaults.withCredentials = true;
 //The line axios.defaults.withCredentials = true; is used to configure Axios so that it includes cookies or other credentials (like HTTP authentication) with cross-site requests.When we talk about "other credentials" in the context of axios.defaults.withCredentials = true, it primarily refers to mechanisms that allow the client to authenticate itself with the server or provide session-related information. These can include:
