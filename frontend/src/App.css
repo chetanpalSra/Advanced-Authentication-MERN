@@ -1,0 +1,11 @@
+@media (max-width: 480px){
+  .adjust{
+    margin: 0 15px;
+  }
+}
+@media (max-width: 400px){
+  .box-gap{
+    margin-left: -12px;
+    gap: 0.25rem;
+  }
+}
